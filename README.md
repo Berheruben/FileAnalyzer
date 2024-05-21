@@ -14,11 +14,11 @@ L'applicazione utilizza il pattern Strategy per gestire la lettura dei file da p
 
 ## Struttura del Progetto e File Principali
 
-src/strategies/FileReaderStrategy.ts: Definisce l'interfaccia per tutte le strategie di lettura dei file.
-src/strategies/LocalFileReader.ts: Implementa la strategia di lettura per i file locali.
-src/strategies/URLFileReader.ts: Implementa la strategia di lettura per i file da URL.
-src/fileReader.ts: La classe FileReader funge da contesto e utilizza una strategia di lettura specifica basata sul tipo di percorso fornito (locale o URL).
-src/index.ts: Contiene la logica principale per leggere un file e analizzare il suo contenuto.
+- src/strategies/FileReaderStrategy.ts: Definisce l'interfaccia per tutte le strategie di lettura dei file.
+- src/strategies/LocalFileReader.ts: Implementa la strategia di lettura per i file locali.
+- src/strategies/URLFileReader.ts: Implementa la strategia di lettura per i file da URL.
+- src/fileReader.ts: La classe FileReader funge da contesto e utilizza una strategia di lettura specifica basata sul tipo di percorso fornito (locale o URL).
+- src/index.ts: Contiene la logica principale per leggere un file e analizzare il suo contenuto.
 
 ## Requisiti
 
