@@ -29,22 +29,22 @@ src/index.ts: Contiene la logica principale per leggere un file e analizzare il 
 
 1. Clona il repository:
 
-    ```sh
-    git clone <URL_DEL_REPOSITORY>
-    cd my-node-typescript-project
-    ```
+ ```sh
+git clone <URL_DEL_REPOSITORY>
+cd my-node-typescript-project
+```
 
 2. Installa le dipendenze:
 
-    ```sh
-    npm install
-    ```
+```sh
+npm install
+```
 
 3. Configura TypeScript:
 
-    ```sh
-    npx tsc --init
-    ```
+```sh
+npx tsc --init
+```
 
 ## Uso
 
@@ -53,15 +53,15 @@ Per eseguire l'applicazione, utilizza il comando:
 ```sh
 npm start <file_path_or_url>
 ```
-## esempi
+## Esempi
 
 lettura di un file locale
 
  ```sh
-    npm start ./example.txt
+npm start ./example.txt
 ```
 lettura di un file URL
 
 ```sh
-   npm start http://example.com/file.txt
+npm start http://example.com/file.txt
 ```
